@@ -1,17 +1,30 @@
-.cart{
+.cart {
     background-color: rgba(255, 153, 0, 0.3);
     padding: 25px;
     position: sticky;
     top: 0;
 }
 
-.cart p{
+.cart p {
     color: #2A414F;
     font-size: 17px;
 }
 
-.cart h6{
+.cart h6 {
     color: #0E161A;
     font-size: 21px;
     margin-top: 0px;
+}
+
+.btn-clear-cart {
+    width: 90%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+    align-items: center;
 }
