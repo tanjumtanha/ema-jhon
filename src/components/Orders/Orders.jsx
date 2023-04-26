@@ -22,7 +22,7 @@ const Orders = () => {
         setCart([]);
         deleteShoppingCart();
     }
-    console.log(saveCart);
+    //console.log(saveCart);
     return (
         <div className='shop-container'>
             <div className="review-container">

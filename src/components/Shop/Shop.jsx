@@ -32,7 +32,7 @@ const Shop = () => {
                 addedProduct.quantity = quantity;
                 saveCart.push(addedProduct);
             }
-            console.log(addedProduct)
+            //console.log(addedProduct)
         }
         // step5: set the cart
         setCart(saveCart);
